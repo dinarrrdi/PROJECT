@@ -1,0 +1,751 @@
+
+/* === БОДИ === */
+
+.page-index1 {
+  background-color: rgb(227, 117, 231); /* Основной фиолетовый цвет */
+  margin: 0;
+  overflow: hidden;
+  position: relative; /* Необходимо для позиционирования ::before относительно этого элемента */
+  z-index: 0; /*  Гарантирует, что контент будет над псевдоэлементом */
+  min-height: 100vh; /*  Занимает всю высоту экрана - ОЧЕНЬ ВАЖНО! */
+  height: 100vh; /* Задаем фиксированную высоту, равную высоте видимой области (viewport) */
+}
+
+.page-index1:before {
+  content: ""; /* Обязательно для псевдоэлементов */
+  background-image: url("https://sojo.net/sites/default/files/magazine/Inside-Out-1.jpg");
+  background-size: cover; /*  Растягивает картинку на весь фон, сохраняя пропорции */
+  background-position: center center; /* Центрирует картинку по горизонтали и вертикали */
+  opacity: 0.8; /* Прозрачность картинки */
+  position: fixed; /*  Фиксированное позиционирование, чтобы занимать всю видимую область */
+  top: 0;
+  left: 0;
+  width: 100vw; /*  Viewport width: 100% ширины видимой области */
+  height: 100vh; /*  Viewport height: 100% высоты видимой области */
+  z-index: -1; /*  Помещает псевдоэлемент под контент */
+}
+
+.page-index2 {
+  background-color: rgb(227, 117, 231);
+  margin: 0;
+  overflow: hidden;
+}
+
+.page-index3 {
+  background-color: rgb(60, 31, 61); /* Основной фиолетовый цвет */
+  margin: 0;
+  overflow: hidden;
+  position: relative; /* Необходимо для позиционирования ::before относительно этого элемента */
+  z-index: 0; /*  Гарантирует, что контент будет над псевдоэлементом */
+  min-height: 100vh; /*  Занимает всю высоту экрана - ОЧЕНЬ ВАЖНО! */
+  height: 100vh; /* Задаем фиксированную высоту, равную высоте видимой области (viewport) */
+}
+
+.page-index3:before {
+  content: ""; /* Обязательно для псевдоэлементов */
+  background-image: url("https://sun9-22.userapi.com/impg/eSDxNmPk_i4urL5zPwfX7sKOpAX3GnJ-A-6Hzw/XTbqAq_lOfM.jpg?size=2560x1440&quality=95&sign=ab97cce4884b86fb051d831a87cdc82a&type=album");
+  background-size: cover; /*  Растягивает картинку на весь фон, сохраняя пропорции */
+  background-position: center center; /* Центрирует картинку по горизонтали и вертикали */
+  opacity: 0.7; /* Прозрачность картинки */
+  position: fixed; /*  Фиксированное позиционирование, чтобы занимать всю видимую область */
+  top: 0;
+  left: 0;
+  width: 100vw; /*  Viewport width: 100% ширины видимой области */
+  height: 100vh; /*  Viewport height: 100% высоты видимой области */
+  z-index: -1; /*  Помещает псевдоэлемент под контент */
+}
+
+.page-index4 {
+  background-color: rgb(0, 0, 0); /* Основной фиолетовый цвет */
+  margin: 0;
+  overflow: hidden;
+  position: relative; /* Необходимо для позиционирования ::before относительно этого элемента */
+  z-index: 0; /*  Гарантирует, что контент будет над псевдоэлементом */
+  min-height: 100vh; /*  Занимает всю высоту экрана - ОЧЕНЬ ВАЖНО! */
+  height: 100vh; /* Задаем фиксированную высоту, равную высоте видимой области (viewport) */
+}
+
+.page-index4:before {
+  content: ""; /* Обязательно для псевдоэлементов */
+  background-image: url("https://sun9-20.userapi.com/impg/KRXy0NlQCYzqMPCc-qnHXbQ6VhgoHYpn7QnZnA/Wkbyqi0bdIg.jpg?size=1920x1080&quality=95&sign=968a1abce39966ef9487ff1302a34deb&type=album");
+  background-size: cover; /*  Растягивает картинку на весь фон, сохраняя пропорции */
+  background-position: center center; /* Центрирует картинку по горизонтали и вертикали */
+  opacity: 0.5; /* Прозрачность картинки */
+  position: fixed; /*  Фиксированное позиционирование, чтобы занимать всю видимую область */
+  top: 0;
+  left: 0;
+  width: 100vw; /*  Viewport width: 100% ширины видимой области */
+  height: 100vh; /*  Viewport height: 100% высоты видимой области */
+  z-index: -1; /*  Помещает псевдоэлемент под контент */
+}
+
+.page-index5 {
+  background-color: rgb(60, 31, 61); /* Основной фиолетовый цвет */
+  margin: 0;
+  overflow: hidden;
+  position: relative; /* Необходимо для позиционирования ::before относительно этого элемента */
+  z-index: 0; /*  Гарантирует, что контент будет над псевдоэлементом */
+  min-height: 100vh; /*  Занимает всю высоту экрана - ОЧЕНЬ ВАЖНО! */
+  height: 100vh; /* Задаем фиксированную высоту, равную высоте видимой области (viewport) */
+}
+
+.page-index5:before {
+  content: ""; /* Обязательно для псевдоэлементов */
+  background-image: url("https://sun9-40.userapi.com/impg/6_DpvKbIbQytxDHzPIiAqrZIWrvxn5yIm8uPbQ/t6ksqHyLEHY.jpg?size=1920x1080&quality=95&sign=b1c95a1e318021ddac2920aaf1b959d0&type=album");
+  background-size: cover; /*  Растягивает картинку на весь фон, сохраняя пропорции */
+  background-position: center center; /* Центрирует картинку по горизонтали и вертикали */
+  opacity: 0.7; /* Прозрачность картинки */
+  position: fixed; /*  Фиксированное позиционирование, чтобы занимать всю видимую область */
+  top: 0;
+  left: 0;
+  width: 100vw; /*  Viewport width: 100% ширины видимой области */
+  height: 100vh; /*  Viewport height: 100% высоты видимой области */
+  z-index: -1; /*  Помещает псевдоэлемент под контент */
+}
+
+.page-index6 {
+  background-color: rgb(60, 31, 61); /* Основной фиолетовый цвет */
+  margin: 0;
+  overflow: hidden;
+  position: relative; /* Необходимо для позиционирования ::before относительно этого элемента */
+  z-index: 0; /*  Гарантирует, что контент будет над псевдоэлементом */
+  min-height: 100vh; /*  Занимает всю высоту экрана - ОЧЕНЬ ВАЖНО! */
+  height: 100vh; /* Задаем фиксированную высоту, равную высоте видимой области (viewport) */
+}
+
+.page-index6:before {
+  content: ""; /* Обязательно для псевдоэлементов */
+  background-image: url("https://i.pinimg.com/originals/16/ee/d8/16eed824c8fb87ed6c0d6eba2d842fc6.jpg");
+  background-size: cover; /*  Растягивает картинку на весь фон, сохраняя пропорции */
+  background-position: center center; /* Центрирует картинку по горизонтали и вертикали */
+  opacity: 0.6; /* Прозрачность картинки */
+  position: fixed; /*  Фиксированное позиционирование, чтобы занимать всю видимую область */
+  top: 0;
+  left: 0;
+  width: 100vw; /*  Viewport width: 100% ширины видимой области */
+  height: 100vh; /*  Viewport height: 100% высоты видимой области */
+  z-index: -1; /*  Помещает псевдоэлемент под контент */
+}
+
+.page-index7 {
+  background-color: rgb(227, 117, 231);
+  margin: 0;
+  overflow: hidden;
+  position: relative; /* Необходимо для позиционирования ::before относительно этого элемента */
+  z-index: 0; /*  Гарантирует, что контент будет над псевдоэлементом */
+  min-height: 100vh; /*  Занимает всю высоту экрана - ОЧЕНЬ ВАЖНО! */
+  height: 100vh; /* Задаем фиксированную высоту, равную высоте видимой области (viewport) */
+}
+
+.page-index7:before {
+  content: ""; /* Обязательно для псевдоэлементов */
+  background-image: url("https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_668ec666f6faca1d3f652cc3_669fb898a8c50a50fec03e04/scale_1200");
+  background-size: cover; /*  Растягивает картинку на весь фон, сохраняя пропорции */
+  background-position: center center; /* Центрирует картинку по горизонтали и вертикали */
+  opacity: 0.7; /* Прозрачность картинки */
+  position: fixed; /*  Фиксированное позиционирование, чтобы занимать всю видимую область */
+  top: 0;
+  left: 0;
+  width: 100vw; /*  Viewport width: 100% ширины видимой области */
+  height: 100vh; /*  Viewport height: 100% высоты видимой области */
+  z-index: -1; /*  Помещает псевдоэлемент под контент */
+}
+
+.page-index8 {
+  background-color: rgb(227, 117, 231);
+  margin: 0;
+  overflow: hidden;
+  position: relative; /* Необходимо для позиционирования ::before относительно этого элемента */
+  z-index: 0; /*  Гарантирует, что контент будет над псевдоэлементом */
+  min-height: 100vh; /*  Занимает всю высоту экрана - ОЧЕНЬ ВАЖНО! */
+  height: 100vh; /* Задаем фиксированную высоту, равную высоте видимой области (viewport) */
+}
+
+.page-index8:before {
+  content: ""; /* Обязательно для псевдоэлементов */
+  background-image: url("https://sun9-56.userapi.com/impg/GlgT4F2MOfT7NwFBFs4QHHMsfsVsEA2-sdLD4Q/_6f8SBlPMRc.jpg?size=1920x1080&quality=95&sign=adbe56d2e1cc2413a53f1a1a0f3b70af&type=album");
+  background-size: cover; /*  Растягивает картинку на весь фон, сохраняя пропорции */
+  background-position: center center; /* Центрирует картинку по горизонтали и вертикали */
+  opacity: 0.9; /* Прозрачность картинки */
+  position: fixed; /*  Фиксированное позиционирование, чтобы занимать всю видимую область */
+  top: 0;
+  left: 0;
+  width: 100vw; /*  Viewport width: 100% ширины видимой области */
+  height: 100vh; /*  Viewport height: 100% высоты видимой области */
+  z-index: -1; /*  Помещает псевдоэлемент под контент */
+}
+
+.page-index9 {
+  background-color: rgb(60, 31, 61);
+  margin: 0;
+  overflow: hidden;
+  position: relative; /* Необходимо для позиционирования ::before относительно этого элемента */
+  z-index: 0; /*  Гарантирует, что контент будет над псевдоэлементом */
+  min-height: 100vh; /*  Занимает всю высоту экрана - ОЧЕНЬ ВАЖНО! */
+  height: 100vh; /* Задаем фиксированную высоту, равную высоте видимой области (viewport) */
+}
+
+.page-index9:before {
+  content: ""; /* Обязательно для псевдоэлементов */
+  background-image: url("https://sun9-59.userapi.com/impg/fkwkSqJa5mtcnu0rZumsFKt7KtK2UiDXdVJZIQ/HkqhJCkTveA.jpg?size=1920x1080&quality=95&sign=d0ee31224613a2aa4213bd96db6ad2fb&type=album");
+  background-size: cover; /*  Растягивает картинку на весь фон, сохраняя пропорции */
+  background-position: center center; /* Центрирует картинку по горизонтали и вертикали */
+  opacity: 0.7; /* Прозрачность картинки */
+  position: fixed; /*  Фиксированное позиционирование, чтобы занимать всю видимую область */
+  top: 0;
+  left: 0;
+  width: 100vw; /*  Viewport width: 100% ширины видимой области */
+  height: 100vh; /*  Viewport height: 100% высоты видимой области */
+  z-index: -1; /*  Помещает псевдоэлемент под контент */
+}
+
+.page-index10 {
+  background-color: rgb(227, 117, 231); /* Основной фиолетовый цвет */
+  margin: 0;
+  overflow: hidden;
+  position: relative; /* Необходимо для позиционирования ::before относительно этого элемента */
+  z-index: 0; /*  Гарантирует, что контент будет над псевдоэлементом */
+  min-height: 100vh; /*  Занимает всю высоту экрана - ОЧЕНЬ ВАЖНО! */
+  height: 100vh; /* Задаем фиксированную высоту, равную высоте видимой области (viewport) */
+}
+
+.page-index10:before {
+  content: ""; /* Обязательно для псевдоэлементов */
+  background-image: url("https://sun9-42.userapi.com/impg/mJJFNXNi6yPlxX_4cc4kTxwF09CfjZfGZVMAEw/7r4fIyHs6cA.jpg?size=2560x1440&quality=95&sign=3c1b19c8ce9004eeff49de8564454987&type=album");
+  background-size: cover; /*  Растягивает картинку на весь фон, сохраняя пропорции */
+  background-position: center center; /* Центрирует картинку по горизонтали и вертикали */
+  opacity: 0.8; /* Прозрачность картинки */
+  position: fixed; /*  Фиксированное позиционирование, чтобы занимать всю видимую область */
+  top: 0;
+  left: 0;
+  width: 100vw; /*  Viewport width: 100% ширины видимой области */
+  height: 100vh; /*  Viewport height: 100% высоты видимой области */
+  z-index: -1; /*  Помещает псевдоэлемент под контент */
+}
+
+.page-index11 {
+  background-color: rgb(227, 117, 231); /* Основной фиолетовый цвет */
+  margin: 0;
+  overflow: hidden;
+  position: relative; /* Необходимо для позиционирования ::before относительно этого элемента */
+  z-index: 0; /*  Гарантирует, что контент будет над псевдоэлементом */
+  min-height: 100vh; /*  Занимает всю высоту экрана - ОЧЕНЬ ВАЖНО! */
+  height: 100vh; /* Задаем фиксированную высоту, равную высоте видимой области (viewport) */
+}
+
+.page-index11:before {
+  content: ""; /* Обязательно для псевдоэлементов */
+  background-image: url("https://sojo.net/sites/default/files/magazine/Inside-Out-1.jpg");
+  background-size: cover; /*  Растягивает картинку на весь фон, сохраняя пропорции */
+  background-position: center center; /* Центрирует картинку по горизонтали и вертикали */
+  opacity: 0.8; /* Прозрачность картинки */
+  position: fixed; /*  Фиксированное позиционирование, чтобы занимать всю видимую область */
+  top: 0;
+  left: 0;
+  width: 100vw; /*  Viewport width: 100% ширины видимой области */
+  height: 100vh; /*  Viewport height: 100% высоты видимой области */
+  z-index: -1; /*  Помещает псевдоэлемент под контент */
+}
+
+.page-index12 {
+  background-color: rgb(227, 117, 231); /* Основной фиолетовый цвет */
+  margin: 0;
+  overflow: hidden;
+  position: relative; /* Необходимо для позиционирования ::before относительно этого элемента */
+  z-index: 0; /*  Гарантирует, что контент будет над псевдоэлементом */
+  min-height: 100vh; /*  Занимает всю высоту экрана - ОЧЕНЬ ВАЖНО! */
+  height: 100vh; /* Задаем фиксированную высоту, равную высоте видимой области (viewport) */
+}
+
+.page-index12:before {
+  content: ""; /* Обязательно для псевдоэлементов */
+  background-image: url("https://sun9-44.userapi.com/impg/Ir9rtpcUpE63QQNZlOIzfb9_5UdBBPbflrVxRA/RYj9USa-4AA.jpg?size=1920x1080&quality=95&sign=0dbb6561e8513263ea4055bff854b06e&type=album");
+  background-size: cover; /*  Растягивает картинку на весь фон, сохраняя пропорции */
+  background-position: center center; /* Центрирует картинку по горизонтали и вертикали */
+  opacity: 0.9; /* Прозрачность картинки */
+  position: fixed; /*  Фиксированное позиционирование, чтобы занимать всю видимую область */
+  top: 0;
+  left: 0;
+  width: 100vw; /*  Viewport width: 100% ширины видимой области */
+  height: 100vh; /*  Viewport height: 100% высоты видимой области */
+  z-index: -1; /*  Помещает псевдоэлемент под контент */
+}
+
+.page-index13 {
+  background-color: rgb(227, 117, 231); /* Основной фиолетовый цвет */
+  margin: 0;
+  overflow: hidden;
+  position: relative; /* Необходимо для позиционирования ::before относительно этого элемента */
+  z-index: 0; /*  Гарантирует, что контент будет над псевдоэлементом */
+  min-height: 100vh; /*  Занимает всю высоту экрана - ОЧЕНЬ ВАЖНО! */
+  height: 100vh; /* Задаем фиксированную высоту, равную высоте видимой области (viewport) */
+}
+
+.page-index13:before {
+  content: ""; /* Обязательно для псевдоэлементов */
+  background-image: url("https://sojo.net/sites/default/files/magazine/Inside-Out-1.jpg");
+  background-size: cover; /*  Растягивает картинку на весь фон, сохраняя пропорции */
+  background-position: center center; /* Центрирует картинку по горизонтали и вертикали */
+  opacity: 0.8; /* Прозрачность картинки */
+  position: fixed; /*  Фиксированное позиционирование, чтобы занимать всю видимую область */
+  top: 0;
+  left: 0;
+  width: 100vw; /*  Viewport width: 100% ширины видимой области */
+  height: 100vh; /*  Viewport height: 100% высоты видимой области */
+  z-index: -1; /*  Помещает псевдоэлемент под контент */
+}
+
+
+
+/* === ОСНОВНОЙ ТЕКСТ === */
+
+h2 {
+  color:rgb(241, 167, 70); 
+  font-family: RAYDIS;
+  font-size: 60px;
+  text-align: center;
+  margin-left: 1cm;
+  text-shadow: -1px -1px 0 #ff0000, 1px -1px 0 #ff0000, -1px 1px 0 #ff0000, 1px 1px 0 #ff0000;
+  margin-bottom: 0;
+}
+
+h3 {
+  color:rgb(241, 167, 70); 
+  font-family: RAYDIS;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 1cm;
+  text-shadow: -1px -1px 0 #ff0000, 1px -1px 0 #ff0000, -1px 1px 0 #ff0000, 1px 1px 0 #ff0000;
+  margin-bottom: 0;
+}
+
+#p_1 {
+  color:rgb(255, 255, 255); 
+  font-family: arial;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 1cm;
+  margin-top: 0;
+}
+
+#p_2 {
+  color:rgb(241, 167, 70); 
+  font-family: raydis;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 1cm;
+  margin-top: 3cm;
+  border-radius: 50px;
+  text-shadow: -1px -1px 0 #ff0000, 1px -1px 0 #ff0000, -1px 1px 0 #ff0000, 1px 1px 0 #ff0000;
+}
+
+#p_3 {
+  color:rgb(255, 255, 255); 
+  font-family: raydis;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 1cm;
+  margin-top: 5cm;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 50px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+p {
+  color:rgb(255, 255, 255); 
+  font-family: arial;
+  font-size:15pt;
+  text-align: center;
+  margin-left: 1cm;
+}
+
+a p {
+color: rgb(241, 167, 70); 
+font-size: 20pt;
+font-family: RAYDIS;
+text-align: center;
+}
+
+.no-button p {
+  color: rgb(185, 185, 185);
+  font-size: 20pt;
+  font-family: RAYDIS;
+  text-align: center;
+}
+
+.comeback-button p {
+  color: rgb(255, 255, 255);
+  font-size: 20pt;
+  font-family: RAYDIS;
+  text-align: center;
+}
+
+a #p_4 {
+  display: block;
+  text-decoration: none;
+  color: rgb(255, 255, 255); 
+  font-size: 17pt;
+  font-family: arial;
+  font-weight: bold;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  word-break: break-word;
+  height: 100px;
+}
+
+
+a #p_4:hover {
+  color: rgb(0, 0, 0);
+  background: linear-gradient(to right, rgb(134, 0, 139), rgb(255, 182, 193), rgb(134, 0, 139)); /* Розово-фиолетовый градиент */
+  border: 2px solid rgb(134, 0, 139); /* Добавляем фиолетовую рамочку */
+  background-size: 200% auto; /*  Делаем градиент шире, чтобы его анимировать */
+  animation: gradientShift 1.5s linear infinite; /*  Анимация градиента (плавное перемещение) */
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+.content ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  align-items: stretch;
+}
+
+.content ul li {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.content ul.dream-choices {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  align-items: stretch;
+}
+
+.content ul.dream-choices li {
+  width: 48%;
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 1%;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.342);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: arial;
+  font-weight: bold;
+  text-align: left;
+  line-height: 50px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  word-break: break-word; /* Перенос длинных слов */
+  display: flex;
+  align-items: center; /* Выравнивание по вертикали (для чекбокса и текста) */
+}
+
+.content ul.dream-choices li label {
+    flex-grow: 1; /* Чтобы текст занимал все доступное пространство */
+}
+
+.content ul.dream-choices li input[type="checkbox"] {
+    margin-right: 5px; /* Отступ между чекбоксом и текстом */
+}
+
+
+
+/* === ВИДЕО === */
+
+#videoOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Черный полупрозрачный фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Отображение поверх всего */
+}
+
+#myVideo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#skipButton {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.content {
+    display: none; /* Скрывается контент по умолчанию */
+}
+
+
+
+/* === НАЧАЛЬНАЯ СТРАНИЦА === */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /*  Уберем, чтобы кнопки не примыкали к краю */
+  padding: 20px; /* Добавим отступы для кнопок от краев */
+}
+
+.text-column {
+  width: 60%;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-item {
+  flex: 1;
+}
+
+.margin-right {
+  margin-right: 1000px;
+}
+
+.button-column {
+  width: 30%;
+  text-align: left; /* Изменим выравнивание текста на левое */
+}
+
+.button-column a {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.start-button {
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  border: 2px solid rgb(134, 0, 139); /* Фиолетовая рамка */
+  background: linear-gradient(to right, rgb(255, 182, 193) ,rgb(134, 0, 139), rgb(255, 182, 193));
+  }
+
+.start-button:hover {
+  background-position: right center; /*  Двигаем фон при наведении */
+  color: white; /* Убедитесь, что цвет текста остается белым при наведении */
+  border: 2px solid rgb(134, 0, 139); /* Фиолетовая рамка */
+  background: linear-gradient(to right, rgb(255, 182, 193) ,rgb(134, 0, 139), rgb(255, 182, 193));
+  animation: gradientShift 1.5s linear infinite;
+  background-size: 200% auto;
+}
+
+/* Стили для кнопки "Позже" */
+.no-button {
+  display: block;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* Светло-серый цвет фона */
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 10px; /* Закругленные края */
+}
+
+.no-button:hover {
+  background-position: right center; /*  Двигаем фон при наведении */
+  color: white; /* Убедитесь, что цвет текста остается белым при наведении */
+  border: 2px solid rgb(134, 0, 139); /* Фиолетовая рамка */
+  background: linear-gradient(to right, rgba(255, 182, 193, 0.6) ,rgb(134, 0, 139, 0.6), rgb(255, 182, 193, 0.6));
+  animation: gradientShift 1.5s linear infinite;
+  background-size: 200% auto;
+}
+
+.comeback-button {
+  display: block;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 50px;
+  width: 210px; /*  Задайте нужную ширину */
+  height: 80px; /*  Задайте нужную высоту */
+}
+
+.comeback-button:hover {
+  background-position: right center; /*  Двигаем фон при наведении */
+  color: white; /* Убедитесь, что цвет текста остается белым при наведении */
+  border: 2px solid rgb(134, 0, 139); /* Фиолетовая рамка */
+  background: linear-gradient(to right, rgba(255, 182, 193, 0.6) ,rgb(134, 0, 139, 0.6), rgb(255, 182, 193, 0.6));
+  animation: gradientShift 1.5s linear infinite;
+  background-size: 200% auto;
+}
+
+.again-button {
+  display: block;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 50px;
+  width: 500px; /*  Задайте нужную ширину */
+  height: 80px; /*  Задайте нужную высоту */
+}
+
+.again-button:hover {
+  background-position: right center; /*  Двигаем фон при наведении */
+  color: white; /* Убедитесь, что цвет текста остается белым при наведении */
+  border: 2px solid rgb(134, 0, 139); /* Фиолетовая рамка */
+  background: linear-gradient(to right, rgba(255, 182, 193, 0.6) ,rgb(134, 0, 139, 0.6), rgb(255, 182, 193, 0.6));
+  animation: gradientShift 1.5s linear infinite;
+  background-size: 200% auto;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px; /* Добавляем небольшой отступ сверху */
+}
+
+.button-container_1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px; /* Добавляем небольшой отступ сверху */
+}
+
+
+
+/* === СТАРТОВАЯ СТРАНИЦА === */
+
+#game-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#game-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1; /* Фон сзади основного содержимого */
+  background-image: url("../images/головоломка.png");
+  background-size: cover;
+  background-position: center;
+  filter: brightness(80%);
+  opacity: 0.9; /* Прозрачность именно фона */
+}
+
+.location {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  text-decoration: none;
+  color: black;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden; /* Обрезается содержимое, выходящее за границы круга */
+}
+
+.location::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: -1; /* Фон за текст */
+}
+
+/* Стили для текста */
+.description_header {
+  font-size: 12px;
+  margin: 0; /* Отступы по умолчанию */
+  color: black;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Тень для лучшей видимости */
+}
+
+.description_text {
+  font-size: 10px;
+  margin: 0;
+  color: black;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.location1::before { background-image: url("../images/головной отдел.png"); }
+.location2::before { background-image: url("../images/лабиринт памяти.jpg"); }
+.location3::before { background-image: url("../images/абстрактное мышление.png"); }
+.location4::before { background-image: url("../images/страна воображения.png"); }
+.location5::before { background-image: url("../images/студия сновидений.png"); }
+.location6::before { background-image: url("../images/подсознание.png"); }
+.location7::before { background-image: url("../images/пропасть забвения.png"); }
+.location8::before { background-image: url("../images/последний ход.png"); }
+
+.location:hover {
+  transform: scale(1.1); /* Небольшое увеличение при наведении */
+  border-color: red; /* Меняется цвет границы при наведении */
+}
+
+.location .description_header {
+  font-size: 14px;
+  margin: 0;
+  color: red;
+}
+
+.location .description_text {
+  font-size: 10px;
+  margin: 0;
+  color: black;
+  text-align: center; /* Центрируется текст */
+}
+
+/* Позиционирование конкретных локаций */
+.location.location1 { top: 10%; left: 10%; }
+.location.location2 { top: 20%; left: 25%; }
+.location.location3 { top: 25%; left: 40%; }
+.location.location4 { top: 25%; left: 55%; }
+.location.location5 { top: 30%; left: 70%; }
+.location.location6 { top: 45%; left: 80%; }
+.location.location7 { top: 65%; left: 70%; }
+.location.location8 { top: 70%; left: 55%; }
